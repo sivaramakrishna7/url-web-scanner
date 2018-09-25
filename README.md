@@ -6,3 +6,17 @@ Permission is hereby granted, free of charge, to any person obtaining a copy of 
 The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
+## Requirements
+
+- [Node and npm](http://nodejs.org)
+- MongoDB: Make sure you have your own local or remote MongoDB database URI configured in 'config/database.js'
+
+## Installation
+
+1. Clone the repository: 'git clone git@g'
+2. Install the application: 'npm install'
+3. Place your own MongoDB URI in 'config/database.js'
+3. Start the server: 'node server.js'
+4. View in browser at 'http://localhost:8081'
